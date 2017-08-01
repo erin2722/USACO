@@ -19,7 +19,6 @@ class ride {
         int cometProduct = 1, groupProduct = 1;
 
         for (int i = 0; i < comet.length; i++) {
-            System.out.println(Character.getNumericValue(comet[i])-9);
             cometProduct *= (Character.getNumericValue(comet[i])-9);
         }
         for (int i = 0; i < group.length; i++)
