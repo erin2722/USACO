@@ -15,8 +15,6 @@ class ride {
         String g = f.readLine();
         char[] comet=c.toCharArray();
         char[] group=g.toCharArray(); 
-        //char[] comet={'C','O','M','E','T','Q'};
-        //char[] group={'H','V','N','G','A','T'};
 
         int cometProduct = 1, groupProduct = 1;
 
@@ -29,9 +27,7 @@ class ride {
 
         if (cometProduct % 47 == groupProduct % 47)
             out.println("GO");
-            //System.out.println("GO");
         else
-            //System.out.println("STAY");
             out.println("STAY");
         out.close();
         System.exit(0);
